@@ -15,13 +15,6 @@ sanitizer(false) {
 }
 ```
 
-
-# License
-
-The ANSI Color Plugin is licensed under the MIT License.
-
-It uses [JANSI](https://github.com/fusesource/jansi/) (Apache 2.0 License).
-
 # Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md).
