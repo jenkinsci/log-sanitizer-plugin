@@ -9,12 +9,10 @@ This plugin allows users to suppress output of enclosing pipelines steps to Cons
 Also, the following pipeline syntax can be used without allocating a node. 
 
 ```groovy
-sanitizer(false) {
+sanitizer(true) {
    echo 'Hello World'
    bat "dir"
 }
 ```
 
-# Contributing
-
-See [CONTRIBUTING](CONTRIBUTING.md).
+Note: A boolean is passed in sanitizer step, it is to allow user to sanitize logs based on any condition/flag. 
