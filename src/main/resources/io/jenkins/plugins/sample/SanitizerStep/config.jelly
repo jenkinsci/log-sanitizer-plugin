@@ -1,0 +1,6 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
+    <st:include class="io.jenkins.plugins.sample.LogSanitizerBuildWrapper" page="config.jelly" />
+</j:jelly>
+
+
